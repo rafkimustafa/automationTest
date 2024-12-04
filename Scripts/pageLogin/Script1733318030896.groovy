@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/')
+
+WebUI.maximizeWindow()
+
+WebUI.verifyElementPresent(findTestObject('textLogin'), 0)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
