@@ -23,7 +23,3 @@ WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('textLogin'), 0)
 
-WebUI.delay(2)
-
-WebUI.closeBrowser()
-
