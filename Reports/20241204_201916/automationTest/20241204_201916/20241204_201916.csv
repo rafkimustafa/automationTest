@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+automationTest,Chrome 131.0.0.0,,,04-12-2024 20:19:29,04-12-2024 20:19:51,22.654s,PASSED
+,,,,,,,
+Test Cases/pageLogin,Chrome 131.0.0.0,,,04-12-2024 20:19:29,04-12-2024 20:19:51,22.010s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/"")",Chrome 131.0.0.0,,,04-12-2024 20:19:30,04-12-2024 20:19:44,14.401s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,04-12-2024 20:19:44,04-12-2024 20:19:45,0.350s,PASSED
+"verifyElementPresent(findTestObject(""textLogin""), 0)",Chrome 131.0.0.0,,,04-12-2024 20:19:45,04-12-2024 20:19:48,2.798s,PASSED
+delay(2),Chrome 131.0.0.0,,,04-12-2024 20:19:48,04-12-2024 20:19:50,2.155s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,04-12-2024 20:19:50,04-12-2024 20:19:51,1.441s,PASSED
