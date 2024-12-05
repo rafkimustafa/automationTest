@@ -17,17 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Open Website/TC 001 Link website benar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login Website/TC 003 Login berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Login/inputUsername'))
+WebUI.click(findTestObject('PIM/buttonMenupim'))
 
-WebUI.setText(findTestObject('Login/inputUsername'), '')
+WebUI.verifyElementPresent(findTestObject('Dashboard/textDashboard'), 0)
 
-WebUI.click(findTestObject('Login/inputPaasword'))
+WebUI.click(findTestObject('PIM/addButton'))
 
-WebUI.setText(findTestObject('Login/inputPaasword'), '')
+WebUI.click(findTestObject('PIM/inputFirstname'))
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('PIM/inputFirstname'), 'Rafki')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('PIM/inputMiddlename'))
+
+WebUI.setText(findTestObject('PIM/inputMiddlename'), 'Mustafa')
+
+WebUI.click(findTestObject('PIM/inputLastname'))
+
+WebUI.setText(findTestObject('PIM/inputLastname'), 'Abdullah Kafi')
+
+WebUI.click(findTestObject('PIM/buttonAddfoto'))
+
+WebUI.uploadFile(findTestObject('PIM/buttonAddfoto'), '')
+
+WebUI.acceptAlert()
 

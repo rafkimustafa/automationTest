@@ -17,17 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Open Website/TC 001 Link website benar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login Website/TC 003 Login berhasil'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Login/inputUsername'))
+WebUI.click(findTestObject('PIM/buttonMenupim'))
 
-WebUI.setText(findTestObject('Login/inputUsername'), '')
-
-WebUI.click(findTestObject('Login/inputPaasword'))
-
-WebUI.setText(findTestObject('Login/inputPaasword'), '')
-
-WebUI.delay(2)
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Dashboard/textDashboard'), 0)
 

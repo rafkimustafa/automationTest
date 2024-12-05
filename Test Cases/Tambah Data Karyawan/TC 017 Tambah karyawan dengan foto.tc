@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 017 Tambah karyawan dengan foto</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e86c744f-8125-446b-a000-fca188d6e670</testCaseGuid>
+</TestCaseEntity>

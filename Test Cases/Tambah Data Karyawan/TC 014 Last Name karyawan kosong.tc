@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 014 Last Name karyawan kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f700725-69b6-452b-b8c6-184f40f31809</testCaseGuid>
+</TestCaseEntity>
