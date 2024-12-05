@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Open Website/TC 001 Link website benar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Tambah Data Karyawan/TC 010 Membuka fitur PIM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Login/inputUsername'))
+WebUI.click(findTestObject('Object Repository/PIM/addButton'))
 
-WebUI.setText(findTestObject('Login/inputUsername'), '')
+WebUI.click(findTestObject('Object Repository/PIM/inputFirstname'))
 
-WebUI.click(findTestObject('Login/inputPaasword'))
+WebUI.setText(findTestObject('Object Repository/PIM/inputFirstname'), 'Rafki')
 
-WebUI.setText(findTestObject('Login/inputPaasword'), '')
+WebUI.click(findTestObject('Object Repository/PIM/inputMiddlename'))
+
+WebUI.setText(findTestObject('Object Repository/PIM/inputMiddlename'), 'Mustafa')
+
+WebUI.click(findTestObject('Object Repository/PIM/inputLastname'))
+
+WebUI.setText(findTestObject('Object Repository/PIM/inputLastname'), 'Abdullah Kafi')
+
+WebUI.click(findTestObject('PIM/inputEmployeeid'))
+
+WebUI.setText(findTestObject('PIM/inputEmployeeid'), '0395')
+
+WebUI.delay(4)
+
+WebUI.verifyElementPresent(findTestObject('PIM/alertEmployeeidrequired'), 0)
 
 WebUI.delay(2)
 

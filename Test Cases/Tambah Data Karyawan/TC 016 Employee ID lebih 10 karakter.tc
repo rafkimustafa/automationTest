@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 016 Employee ID lebih 10 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5be59d10-8ddd-4b6f-98c3-093677edd050</testCaseGuid>
+</TestCaseEntity>
