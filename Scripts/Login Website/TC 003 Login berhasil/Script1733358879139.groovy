@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/')
+WebUI.callTestCase(findTestCase('openWebsite/TC 001 Link website benar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Login/inputUsername'))
 
-WebUI.verifyElementPresent(findTestObject('textLogin'), 0)
+WebUI.setText(findTestObject('Login/inputUsername'), 'admin')
+
+WebUI.click(findTestObject('Login/inputPaasword'))
+
+WebUI.setText(findTestObject('Login/inputPaasword'), 'admin123')
+
+WebUI.click(findTestObject('Login/buttonLogin'))
+
+WebUI.verifyElementPresent(findTestObject('Dashboard/textDashboard'), 0)
 
 WebUI.delay(2)
 

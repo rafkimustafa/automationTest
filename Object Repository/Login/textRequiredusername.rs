@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textLogin</name>
+   <name>textRequiredusername</name>
    <tag></tag>
-   <elementGuidId>fda024b7-6f98-4ca0-a23e-9691a2926eb3</elementGuidId>
+   <elementGuidId>8afd3dd3-64ac-4e61-a23a-6279d505b13d</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/span</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div/div[1]/div/div[2]/h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

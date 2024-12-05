@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('openWebsite/TC 001 Link website benar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Login/inputUsername'))
+
+WebUI.setText(findTestObject('Login/inputUsername'), 'admin')
+
+WebUI.click(findTestObject('Login/inputPaasword'))
+
+WebUI.setText(findTestObject('Login/inputPaasword'), '')
+
+WebUI.click(findTestObject('Login/buttonLogin'))
+
+WebUI.verifyElementPresent(findTestObject('Login/textRequiredpassword'), 0)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
