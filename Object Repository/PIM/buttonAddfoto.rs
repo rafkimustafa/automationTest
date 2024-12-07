@@ -4,22 +4,21 @@
    <name>buttonAddfoto</name>
    <tag></tag>
    <elementGuidId>257164f6-76c5-4f12-afa2-a7e68abe36a0</elementGuidId>
-   <imagePath>C:\Users\rafki\git\automationTest\Screenshots\testAvatar.png</imagePath>
+   <imagePath>Screenshots/testAvatar.png</imagePath>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>IMAGE</key>
+         <value>Screenshots/testAvatar.png</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[1]/div/div[2]/div/button</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div/div[2]/div/button/i</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value>C:\Users\rafki\git\automationTest\Screenshots\testAvatar.png</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>IMAGE</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>
