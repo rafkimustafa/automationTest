@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 002 Buat data karyawan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7346de4-19e5-424a-a5c4-a28481a0d1f2</testCaseGuid>
+</TestCaseEntity>

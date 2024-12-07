@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC 015 Employee ID karyawan duplikat</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5a7f9014-ce32-4160-b910-9af31ab476de</testCaseGuid>
-</TestCaseEntity>
