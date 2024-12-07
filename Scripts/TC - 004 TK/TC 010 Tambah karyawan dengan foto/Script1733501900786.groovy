@@ -45,7 +45,7 @@ WebUI.click(findTestObject('PIM/inputEmployeeid'))
 
 WebUI.sendKeys(findTestObject('PIM/inputEmployeeid'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('PIM/inputEmployeeid'), '6234238')
+WebUI.setText(findTestObject('PIM/inputEmployeeid'), '6734983')
 
 WebUI.click(findTestObject('PIM/addImage'))
 
