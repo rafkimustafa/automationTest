@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[2]/div/div/span</value>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
