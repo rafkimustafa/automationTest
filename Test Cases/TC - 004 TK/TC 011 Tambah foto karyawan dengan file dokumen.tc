@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 011 Tambah foto karyawan dengan file dokumen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3e4054a-631a-4ef8-a728-f384777c889c</testCaseGuid>
+</TestCaseEntity>

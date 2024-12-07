@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 012 tombol cancel tambah karaywan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4b1bef6-b302-48ca-b98e-cc0ec8f096ab</testCaseGuid>
+</TestCaseEntity>

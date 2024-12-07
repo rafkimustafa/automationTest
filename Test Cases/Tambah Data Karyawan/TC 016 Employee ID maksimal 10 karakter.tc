@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC 016 Employee ID maksimal 10 karakter</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>636e2e6e-b6f5-448e-8120-45b93321fec4</testCaseGuid>
-</TestCaseEntity>
