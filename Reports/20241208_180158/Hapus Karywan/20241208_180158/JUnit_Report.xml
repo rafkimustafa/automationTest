@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hapus Karywan" time="225.418" tests="5" failures="1" errors="0">
+   <testsuite name="Hapus Karywan" tests="5" failures="1" errors="0" time="225.418" skipped="0" timestamp="08-12-2024T18:02:14" hostname="rafki - Tester" id="Test Suites/Hapus Karywan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_180158\\Hapus Karywan\\20241208_180158"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_180158\\Hapus Karywan\\20241208_180158\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_180158\\Hapus Karywan\\20241208_180158\\1733655923370.png"/>
+         <property name="hostName" value="rafki - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.169"/>
+         <property name="sessionId" value="5bd918dccbeb01a245d831a5aec1fd45"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan" time="50.534" classname="Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan" status="PASSED">
+         <system-out><![CDATA[08-12-2024T18:02:15 - [TEST_CASE][PASSED] - Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan: Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan
+
+08-12-2024T18:02:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:02:17 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+08-12-2024T18:02:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:02:18 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+08-12-2024T18:02:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:02:18 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T18:02:18 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:02:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T18:02:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T18:02:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:02:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T18:02:37 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T18:02:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:02:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:02:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:02:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:02:47 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:02:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:02:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:02:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:02:53 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:02:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:02:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:02:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:02:58 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:02:59 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:03:00 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:03:01 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:03:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:03:02 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:03:02 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonDelete")): Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:03:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/alertConfirmdelete"), 0): Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:03:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T18:03:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T18:03:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T18:03:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data" time="39.682" classname="Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data" status="PASSED">
+         <system-out><![CDATA[08-12-2024T18:03:06 - [TEST_CASE][PASSED] - Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data: Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data
+
+08-12-2024T18:03:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:03:07 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+08-12-2024T18:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:03:07 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+08-12-2024T18:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:03:07 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T18:03:07 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:03:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T18:03:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T18:03:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:03:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T18:03:16 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T18:03:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:03:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:03:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:03:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:03:21 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:03:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:03:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:03:28 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:03:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:03:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:03:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:03:33 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:03:36 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:03:37 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:03:39 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:03:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:03:39 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:03:39 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonDelete")): Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:03:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/alertConfirmdelete"), 0): Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:03:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T18:03:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T18:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/iconX")): Object: 'Object Repository/Delete Employee/iconX' is clicked on
+
+08-12-2024T18:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/iconX' is clicked on
+
+08-12-2024T18:03:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T18:03:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T18:03:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T18:03:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data" time="32.898" classname="Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data" status="PASSED">
+         <system-out><![CDATA[08-12-2024T18:03:46 - [TEST_CASE][PASSED] - Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data: Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data
+
+08-12-2024T18:03:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:03:46 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+08-12-2024T18:03:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:03:46 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+08-12-2024T18:03:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:03:46 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T18:03:46 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:03:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T18:03:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T18:03:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:03:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T18:03:55 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T18:03:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:03:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:03:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:03:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:03:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:03:59 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:04:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:04:03 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:04:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:07 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:04:07 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:04:10 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:04:12 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:04:12 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:04:14 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:04:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:04:14 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:04:14 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonDelete")): Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:04:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/alertConfirmdelete"), 0): Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:04:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:15 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonCanceldelete")): Object: 'Object Repository/Delete Employee/buttonCanceldelete' is clicked on
+
+08-12-2024T18:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonCanceldelete' is clicked on
+
+08-12-2024T18:04:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T18:04:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T18:04:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T18:04:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data" time="64.496" classname="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[08-12-2024T18:04:19 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+08-12-2024T18:04:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:04:19 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+08-12-2024T18:04:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:04:19 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+08-12-2024T18:04:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:04:19 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T18:04:19 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:04:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T18:04:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T18:04:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:04:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T18:04:28 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T18:04:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:04:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:04:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:04:32 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:04:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:04:37 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:04:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:04:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:04:46 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:04:47 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:04:48 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:04:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:04:49 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:04:49 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonDelete")): Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+08-12-2024T18:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/alertConfirmdelete"), 0): Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+08-12-2024T18:04:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T18:04:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T18:04:52 - [TEST_STEP][FAILED] - click(findTestObject("Delete Employee/buttonYesdelete")): Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1733654847827.run(Script1733654847827.groovy:42)
+	... 15 more
+)
+
+08-12-2024T18:05:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[18]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-12-2024T18:05:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1733654847827.run(Script1733654847827.groovy:42)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_180158\\Hapus Karywan\\20241208_180158\\1733655923370.png]]]]></system-out>
+         <system-err><![CDATA[08-12-2024T18:04:19 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus" time="36.723" classname="Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus" status="PASSED">
+         <system-out><![CDATA[08-12-2024T18:05:23 - [TEST_CASE][PASSED] - Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus: Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus
+
+08-12-2024T18:05:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:05:24 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+08-12-2024T18:05:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:05:24 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+08-12-2024T18:05:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:05:24 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T18:05:24 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:05:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-12-2024T18:05:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T18:05:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T18:05:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T18:05:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T18:05:33 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T18:05:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T18:05:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T18:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+08-12-2024T18:05:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:05:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+08-12-2024T18:05:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+08-12-2024T18:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:05:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+08-12-2024T18:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+08-12-2024T18:05:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:05:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+08-12-2024T18:05:42 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+08-12-2024T18:05:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:05:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T18:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+08-12-2024T18:05:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+08-12-2024T18:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+08-12-2024T18:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+08-12-2024T18:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:05:51 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+08-12-2024T18:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+08-12-2024T18:05:52 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+08-12-2024T18:05:54 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:05:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+08-12-2024T18:05:54 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:05:54 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+08-12-2024T18:05:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+08-12-2024T18:05:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+08-12-2024T18:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T18:06:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-12-2024T18:02:14 - [TEST_SUITE][FAILED] - Hapus Karywan: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-12-2024T18:02:14 - [TEST_SUITE][FAILED] - Hapus Karywan: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonYesdelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733655718908.run(TempTestSuite1733655718908.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonYesdelete' located by '(//button[@type='button'])[18]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

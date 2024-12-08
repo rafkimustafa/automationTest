@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 001 Cari default list karyawan Username dan Employee id kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ebe3439-ee11-408f-97ee-6a9dd831ffb4</testCaseGuid>
+</TestCaseEntity>

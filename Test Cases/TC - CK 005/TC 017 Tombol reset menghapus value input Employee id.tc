@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 017 Tombol reset menghapus value input Employee id</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5002d51c-2a36-45cd-abcd-561b0ca8e99b</testCaseGuid>
+</TestCaseEntity>

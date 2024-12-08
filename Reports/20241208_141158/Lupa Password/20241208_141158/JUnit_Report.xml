@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Lupa Password" time="70.542" tests="2" failures="0" errors="0">
+   <testsuite name="Lupa Password" tests="2" failures="0" errors="0" time="70.542" skipped="0" timestamp="08-12-2024T14:12:15" hostname="rafki - Tester" id="Test Suites/Lupa Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_141158\\Lupa Password\\20241208_141158"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTest\\Reports\\20241208_141158\\Lupa Password\\20241208_141158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafki - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.14"/>
+         <property name="sessionId" value="2590af0f238cd8d233e5eb0897504824"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC - LP 003/TC 001 Klik Forgot your password" time="44.425" classname="Test Cases/TC - LP 003/TC 001 Klik Forgot your password" status="PASSED">
+         <system-out><![CDATA[08-12-2024T14:12:16 - [TEST_CASE][PASSED] - Test Cases/TC - LP 003/TC 001 Klik Forgot your password: Test Cases/TC - LP 003/TC 001 Klik Forgot your password
+
+08-12-2024T14:12:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T14:12:18 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T14:12:18 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T14:12:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T14:12:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T14:12:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T14:12:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T14:12:38 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T14:12:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T14:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T14:12:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T14:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/textForgotpassword")): Object: 'Object Repository/Forgot Password/textForgotpassword' is clicked on
+
+08-12-2024T14:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/textForgotpassword' is clicked on
+
+08-12-2024T14:12:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Forgot Password/inputUsername"), 0): Object 'Object Repository/Forgot Password/inputUsername' is present
+
+08-12-2024T14:12:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/inputUsername' is present
+
+08-12-2024T14:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/inputUsername")): Object: 'Object Repository/Forgot Password/inputUsername' is clicked on
+
+08-12-2024T14:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/inputUsername' is clicked on
+
+08-12-2024T14:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Password/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Forgot Password/inputUsername'
+
+08-12-2024T14:12:50 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Forgot Password/inputUsername'
+
+08-12-2024T14:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/buttonResetpassword")): Object: 'Object Repository/Forgot Password/buttonResetpassword' is clicked on
+
+08-12-2024T14:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/buttonResetpassword' is clicked on
+
+08-12-2024T14:12:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Forgot Password/textResetpassword"), 0): Object 'Object Repository/Forgot Password/textResetpassword' is present
+
+08-12-2024T14:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:12:54 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/textResetpassword' is present
+
+08-12-2024T14:12:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T14:12:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T14:12:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T14:13:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LP 003/TC 002 Tombol cancel pada lupa password" time="25.223" classname="Test Cases/TC - LP 003/TC 002 Tombol cancel pada lupa password" status="PASSED">
+         <system-out><![CDATA[08-12-2024T14:13:00 - [TEST_CASE][PASSED] - Test Cases/TC - LP 003/TC 002 Tombol cancel pada lupa password: Test Cases/TC - LP 003/TC 002 Tombol cancel pada lupa password
+
+08-12-2024T14:13:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T14:13:01 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+08-12-2024T14:13:01 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T14:13:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T14:13:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T14:13:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+08-12-2024T14:13:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T14:13:13 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T14:13:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T14:13:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+08-12-2024T14:13:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+08-12-2024T14:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/textForgotpassword")): Object: 'Object Repository/Forgot Password/textForgotpassword' is clicked on
+
+08-12-2024T14:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/textForgotpassword' is clicked on
+
+08-12-2024T14:13:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Forgot Password/inputUsername"), 0): Object 'Object Repository/Forgot Password/inputUsername' is present
+
+08-12-2024T14:13:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:13:17 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/inputUsername' is present
+
+08-12-2024T14:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/inputUsername")): Object: 'Object Repository/Forgot Password/inputUsername' is clicked on
+
+08-12-2024T14:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/inputUsername' is clicked on
+
+08-12-2024T14:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Password/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Forgot Password/inputUsername'
+
+08-12-2024T14:13:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Forgot Password/inputUsername'
+
+08-12-2024T14:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/buttonCancel")): Object: 'Object Repository/Forgot Password/buttonCancel' is clicked on
+
+08-12-2024T14:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/buttonCancel' is clicked on
+
+08-12-2024T14:13:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Forgot Password/textForgotpassword"), 0): Object 'Object Repository/Forgot Password/textForgotpassword' is present
+
+08-12-2024T14:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-12-2024T14:13:21 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/textForgotpassword' is present
+
+08-12-2024T14:13:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-12-2024T14:13:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-12-2024T14:13:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T14:13:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-12-2024T14:12:15 - [TEST_SUITE][PASSED] - Lupa Password: Test Cases/TC - LP 003/TC 002 Tombol cancel pada lupa password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

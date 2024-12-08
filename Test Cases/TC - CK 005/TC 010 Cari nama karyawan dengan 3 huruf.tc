@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 010 Cari nama karyawan dengan 3 huruf</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4547b088-ff1e-4273-ac83-5101a0c1906a</testCaseGuid>
+</TestCaseEntity>

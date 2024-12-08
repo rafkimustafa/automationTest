@@ -12,52 +12,52 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3e6ef0bb-9770-4da0-ac58-29c92341a432</testSuiteGuid>
    <testCaseLink>
-      <guid>f8f4d249-0e0b-4545-9674-15b9995edbb0</guid>
+      <guid>ba25e04b-9af1-4d65-96fd-608cedc3eff0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 003 Login berhasil</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 001 Login berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>639f890b-f5ca-484e-b73c-79415121dd80</guid>
+      <guid>c32fd28b-d8ea-45f7-a4cd-99959d5e23d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 004 Login gagal username salah</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 002 Login gagal username salah</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2e65211-fbcb-4590-b834-7f9a871bac54</guid>
+      <guid>214ae195-13ef-41cd-a94d-4f6dc30b766c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 005 Login gagal password salah</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 003 Login gagal password salah</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2278ad08-f9d2-46fb-afd6-139b46665d32</guid>
+      <guid>efdca71c-d182-4382-a9d8-13b1085400a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 006 Username kosong</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 004 Username kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ff00af8-5aff-4a1f-bb6f-32415d9470cd</guid>
+      <guid>3fdd1741-a070-4e46-8c79-59c06451a911</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 007 Password kosong</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 005 Password kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3329a5fa-6ae0-4973-9de6-6dcd91ca2469</guid>
+      <guid>b7f76cc3-86db-4588-a753-d699bc8eeb80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 008 Username dan password kosong</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 006 Username dan password kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8abb2bd2-accb-4cb1-8407-aaf74610dff4</guid>
+      <guid>6c1a63c8-1c35-4c4e-bc03-fd5352625a33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Website/TC 009 Tidak klik tombol login</testCaseId>
+      <testCaseId>Test Cases/TC - LW 002/TC 007 Tidak klik tombol login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
