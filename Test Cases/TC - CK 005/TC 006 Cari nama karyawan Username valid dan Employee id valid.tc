@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 006 Cari nama karyawan Username valid dan Employee id valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd81e497-afc4-4fed-86f7-88427b9a9b4b</testCaseGuid>
+</TestCaseEntity>

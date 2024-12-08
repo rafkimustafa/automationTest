@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 019 Tombol reset Melakukan load ulang employee list</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>503eb04d-5780-4da8-9413-275ea91a348e</testCaseGuid>
+</TestCaseEntity>

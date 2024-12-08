@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Website,Chrome 131.0.0.0,,,08-12-2024 15:01:28,08-12-2024 15:05:39,4m - 11.768s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 001 Login berhasil,Chrome 131.0.0.0,,,08-12-2024 15:01:30,08-12-2024 15:02:27,56.708s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:01:35,08-12-2024 15:02:16,41.223s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:02:16,08-12-2024 15:02:17,0.993s,PASSED
+"setText(findTestObject(""Login/inputUsername""), ""admin"")",Chrome 131.0.0.0,,,08-12-2024 15:02:17,08-12-2024 15:02:19,2.007s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:02:19,08-12-2024 15:02:19,0.574s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), ""admin123"")",Chrome 131.0.0.0,,,08-12-2024 15:02:19,08-12-2024 15:02:20,0.918s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:02:20,08-12-2024 15:02:21,0.561s,PASSED
+"verifyElementPresent(findTestObject(""Dashboard/textDashboard""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:02:21,08-12-2024 15:02:27,5.759s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 002 Login gagal username salah,Chrome 131.0.0.0,,,08-12-2024 15:02:27,08-12-2024 15:03:00,33.404s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:02:29,08-12-2024 15:02:48,18.798s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:02:48,08-12-2024 15:02:49,1.592s,PASSED
+"setText(findTestObject(""Login/inputUsername""), ""adm"")",Chrome 131.0.0.0,,,08-12-2024 15:02:49,08-12-2024 15:02:52,2.411s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:02:52,08-12-2024 15:02:53,1.400s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), ""admin123"")",Chrome 131.0.0.0,,,08-12-2024 15:02:53,08-12-2024 15:02:54,1.156s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:02:54,08-12-2024 15:02:57,2.181s,PASSED
+"verifyElementPresent(findTestObject(""Login/textInvalidcredentials""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:02:57,08-12-2024 15:02:57,0.921s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:02:57,08-12-2024 15:03:00,2.103s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:03:00,08-12-2024 15:03:00,0.748s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 003 Login gagal password salah,Chrome 131.0.0.0,,,08-12-2024 15:03:00,08-12-2024 15:03:27,26.925s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:03:01,08-12-2024 15:03:15,14.008s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:03:15,08-12-2024 15:03:16,1.102s,PASSED
+"setText(findTestObject(""Login/inputUsername""), ""admin"")",Chrome 131.0.0.0,,,08-12-2024 15:03:16,08-12-2024 15:03:19,3.098s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:03:19,08-12-2024 15:03:20,0.588s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), ""admin"")",Chrome 131.0.0.0,,,08-12-2024 15:03:20,08-12-2024 15:03:21,1.322s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:03:21,08-12-2024 15:03:23,2.593s,PASSED
+"verifyElementPresent(findTestObject(""Login/textInvalidcredentials""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:03:23,08-12-2024 15:03:24,0.858s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:03:24,08-12-2024 15:03:26,2.017s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:03:26,08-12-2024 15:03:27,0.928s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 004 Username kosong,Chrome 131.0.0.0,,,08-12-2024 15:03:27,08-12-2024 15:03:54,26.620s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:03:28,08-12-2024 15:03:44,15.913s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:03:44,08-12-2024 15:03:45,1.529s,PASSED
+"setText(findTestObject(""Login/inputUsername""), """")",Chrome 131.0.0.0,,,08-12-2024 15:03:45,08-12-2024 15:03:48,2.926s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:03:48,08-12-2024 15:03:49,0.553s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), ""admin123"")",Chrome 131.0.0.0,,,08-12-2024 15:03:49,08-12-2024 15:03:50,1.043s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:03:50,08-12-2024 15:03:51,0.900s,PASSED
+"verifyElementPresent(findTestObject(""Login/textRequiredusername""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:03:51,08-12-2024 15:03:51,0.533s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:03:51,08-12-2024 15:03:53,2.024s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:03:53,08-12-2024 15:03:54,0.670s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 005 Password kosong,Chrome 131.0.0.0,,,08-12-2024 15:03:54,08-12-2024 15:04:19,25.548s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:03:54,08-12-2024 15:04:09,14.262s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:04:09,08-12-2024 15:04:10,1.289s,PASSED
+"setText(findTestObject(""Login/inputUsername""), ""admin"")",Chrome 131.0.0.0,,,08-12-2024 15:04:10,08-12-2024 15:04:13,3.222s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:04:13,08-12-2024 15:04:15,1.388s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), """")",Chrome 131.0.0.0,,,08-12-2024 15:04:15,08-12-2024 15:04:16,1.026s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:04:16,08-12-2024 15:04:16,0.480s,PASSED
+"verifyElementPresent(findTestObject(""Login/textRequiredpassword""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:04:16,08-12-2024 15:04:17,0.472s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:04:17,08-12-2024 15:04:19,2.051s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:04:19,08-12-2024 15:04:19,0.883s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 006 Username dan password kosong,Chrome 131.0.0.0,,,08-12-2024 15:04:19,08-12-2024 15:04:46,26.221s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:04:20,08-12-2024 15:04:33,12.920s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:04:33,08-12-2024 15:04:33,0.551s,PASSED
+"setText(findTestObject(""Login/inputUsername""), """")",Chrome 131.0.0.0,,,08-12-2024 15:04:33,08-12-2024 15:04:34,0.900s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:04:34,08-12-2024 15:04:35,0.425s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), """")",Chrome 131.0.0.0,,,08-12-2024 15:04:35,08-12-2024 15:04:37,1.864s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,08-12-2024 15:04:37,08-12-2024 15:04:41,4.284s,PASSED
+"verifyElementPresent(findTestObject(""Login/textRequiredusername""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:04:41,08-12-2024 15:04:42,1.307s,PASSED
+"verifyElementPresent(findTestObject(""Login/textRequiredpassword""), 0)",Chrome 131.0.0.0,,,08-12-2024 15:04:42,08-12-2024 15:04:43,0.925s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:04:43,08-12-2024 15:04:45,2.008s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:04:45,08-12-2024 15:04:46,0.577s,PASSED
+,,,,,,,
+Test Cases/TC - LW 002/TC 008 Tidak klik tombol login,Chrome 131.0.0.0,,,08-12-2024 15:04:46,08-12-2024 15:05:39,53.570s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,08-12-2024 15:04:46,08-12-2024 15:05:26,40.359s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,08-12-2024 15:05:26,08-12-2024 15:05:29,2.932s,PASSED
+"setText(findTestObject(""Login/inputUsername""), """")",Chrome 131.0.0.0,,,08-12-2024 15:05:29,08-12-2024 15:05:31,1.352s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,08-12-2024 15:05:31,08-12-2024 15:05:31,0.494s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), """")",Chrome 131.0.0.0,,,08-12-2024 15:05:31,08-12-2024 15:05:32,0.752s,PASSED
+delay(2),Chrome 131.0.0.0,,,08-12-2024 15:05:32,08-12-2024 15:05:34,2.025s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 15:05:34,08-12-2024 15:05:39,5.300s,PASSED
