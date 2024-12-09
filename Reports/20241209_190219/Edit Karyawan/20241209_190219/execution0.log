@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-09T12:03:23.735091600Z</date>
+  <millis>1733745803735</millis>
+  <nanos>91600</nanos>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Edit Karyawan</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Edit Karyawan</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Edit Karyawan</property>
+</record>
+<record>
+  <date>2024-12-09T12:03:25.476473500Z</date>
+  <millis>1733745805476</millis>
+  <nanos>473500</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = rafki - Tester</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">rafki - Tester</property>
+</record>
+<record>
+  <date>2024-12-09T12:03:25.541175700Z</date>
+  <millis>1733745805541</millis>
+  <nanos>175700</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2024-12-09T12:03:25.559429800Z</date>
+  <millis>1733745805559</millis>
+  <nanos>429800</nanos>
+  <sequence>7</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.46</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.46</property>
+</record>
+<record>
+  <date>2024-12-09T12:03:25.587396400Z</date>
+  <millis>1733745805587</millis>
+  <nanos>396400</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.0.1.223</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.0.1.223</property>
+</record>
+<record>
+  <date>2024-12-09T12:03:32.620731900Z</date>
+  <millis>1733745812620</millis>
+  <nanos>731900</nanos>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC - TK 004/TC 002 Buat data karyawan</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/TC - TK 004/TC 002 Buat data karyawan</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC - TK 004/TC 002 Buat data karyawan</property>
+  <property name="source">C:\Users\rafki\git\automationTesting\Test Cases\TC - TK 004\TC 002 Buat data karyawan.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>

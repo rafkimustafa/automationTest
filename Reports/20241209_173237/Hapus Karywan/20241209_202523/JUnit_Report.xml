@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hapus Karywan" time="908.717" tests="6" failures="4" errors="0">
+   <testsuite name="Hapus Karywan" tests="6" failures="4" errors="0" time="908.717" skipped="0" timestamp="09-12-2024T21:04:05" hostname="TESTER$ - Tester" id="Test Suites/Hapus Karywan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753364834.png, C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753535726.png, C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753687307.png, C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753845685.png"/>
+         <property name="hostName" value="TESTER$ - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.46"/>
+         <property name="sessionId" value="191a4e9352daa35056179a1bf8670478"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC - TK 004/TC 002 Buat data karyawan" time="177.117" classname="Test Cases/TC - TK 004/TC 002 Buat data karyawan" status="PASSED">
+         <system-out><![CDATA[09-12-2024T21:04:07 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 002 Buat data karyawan: Test Cases/TC - TK 004/TC 002 Buat data karyawan
+
+09-12-2024T21:04:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:04:19 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:04:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:04:20 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:04:21 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:04:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:04:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:05:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:05:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:05:25 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:05:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:05:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:05:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:05:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:05:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:05:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:05:39 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:05:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:05:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:05:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:05:50 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:06:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:06:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:06:09 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:06:10 - [TEST_STEP][PASSED] - click(findTestObject("PIM/addButton")): Object: 'Object Repository/PIM/addButton' is clicked on
+
+09-12-2024T21:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/addButton' is clicked on
+
+09-12-2024T21:06:20 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputFirstname")): Object: 'Object Repository/PIM/inputFirstname' is clicked on
+
+09-12-2024T21:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputFirstname' is clicked on
+
+09-12-2024T21:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputFirstname"), "Rafki"): Text 'Rafki' is set on object 'Object Repository/PIM/inputFirstname'
+
+09-12-2024T21:06:29 - [MESSAGE][PASSED] - Text 'Rafki' is set on object 'Object Repository/PIM/inputFirstname'
+
+09-12-2024T21:06:29 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputMiddlename")): Object: 'Object Repository/PIM/inputMiddlename' is clicked on
+
+09-12-2024T21:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputMiddlename' is clicked on
+
+09-12-2024T21:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputMiddlename"), "Mustafa"): Text 'Mustafa' is set on object 'Object Repository/PIM/inputMiddlename'
+
+09-12-2024T21:06:38 - [MESSAGE][PASSED] - Text 'Mustafa' is set on object 'Object Repository/PIM/inputMiddlename'
+
+09-12-2024T21:06:38 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputLastname")): Object: 'Object Repository/PIM/inputLastname' is clicked on
+
+09-12-2024T21:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputLastname' is clicked on
+
+09-12-2024T21:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputLastname"), "Abdullah Kafi"): Text 'Abdullah Kafi' is set on object 'Object Repository/PIM/inputLastname'
+
+09-12-2024T21:06:45 - [MESSAGE][PASSED] - Text 'Abdullah Kafi' is set on object 'Object Repository/PIM/inputLastname'
+
+09-12-2024T21:06:45 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputEmployeeid")): Object: 'Object Repository/PIM/inputEmployeeid' is clicked on
+
+09-12-2024T21:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputEmployeeid' is clicked on
+
+09-12-2024T21:06:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PIM/inputEmployeeid"), Keys.chord(CONTROL, "a", DELETE)): Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T21:06:52 - [MESSAGE][PASSED] - Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T21:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputEmployeeid"), "65456453"): Text '65456453' is set on object 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T21:06:55 - [MESSAGE][PASSED] - Text '65456453' is set on object 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T21:06:55 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonSave")): Object: 'Object Repository/PIM/buttonSave' is clicked on
+
+09-12-2024T21:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonSave' is clicked on
+
+09-12-2024T21:06:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T21:06:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T21:06:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T21:07:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan" time="140.015" classname="Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xa;	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[09-12-2024T21:07:05 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan: Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+09-12-2024T21:07:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:07:07 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T21:07:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:07:07 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:07:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:07:08 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:07:08 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:07:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:07:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:07:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:07:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:07:51 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:07:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:07:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:07:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:08:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:08:13 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:08:17 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:08:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:08:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:08:29 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:08:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:08:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:08:46 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:08:47 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:08:49 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:08:50 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:08:50 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:08:50 - [TEST_STEP][FAILED] - click(findTestObject("Delete Employee/buttonDelete")): Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733653130573.run(Script1733653130573.groovy:36)
+	... 16 more
+)
+
+09-12-2024T21:09:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-12-2024T21:09:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Delete Employee/buttonDelete'. Try using Self-healing.
+
+09-12-2024T21:09:23 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+09-12-2024T21:09:24 - [MESSAGE][WARNING] - [SELF-HEALING] invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [394b94e24cd9a7d41284431e0bf3e502, findElements {value=, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61138/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21884/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 394b94e24cd9a7d41284431e0bf3e502
+
+09-12-2024T21:09:24 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+09-12-2024T21:09:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733653130573.run(Script1733653130573.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753364834.png]]]]></system-out>
+         <system-err><![CDATA[09-12-2024T21:07:05 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan: Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data" time="170.563" classname="Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xa;	at TC 002 Tekan icon X untuk menutup konfirmasi hapus data.run(TC 002 Tekan icon X untuk menutup konfirmasi hapus data:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[09-12-2024T21:09:25 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data: Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 002 Tekan icon X untuk menutup konfirmasi hapus data.run(TC 002 Tekan icon X untuk menutup konfirmasi hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+09-12-2024T21:09:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:09:27 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T21:09:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:09:27 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:09:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:09:27 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:09:28 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:09:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T21:09:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:09:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:10:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:10:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:10:32 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:10:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:10:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:10:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:10:59 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:11:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:11:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:11:10 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:11:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:11:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:11:26 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:11:34 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:11:37 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:11:40 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:11:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:11:41 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:11:41 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:11:41 - [TEST_STEP][FAILED] - click(findTestObject("Delete Employee/buttonDelete")): Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 002 Tekan icon X untuk menutup konfirmasi hapus data.run(TC 002 Tekan icon X untuk menutup konfirmasi hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654562216.run(Script1733654562216.groovy:36)
+	... 16 more
+)
+
+09-12-2024T21:12:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-12-2024T21:12:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Delete Employee/buttonDelete'. Try using Self-healing.
+
+09-12-2024T21:12:14 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+09-12-2024T21:12:15 - [MESSAGE][WARNING] - [SELF-HEALING] invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [74d257e47646747a6f7f69334f951ebb, findElements {value=, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:31808/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74d257e47646747a6f7f69334f951ebb
+
+09-12-2024T21:12:15 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+09-12-2024T21:12:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 002 Tekan icon X untuk menutup konfirmasi hapus data.run(TC 002 Tekan icon X untuk menutup konfirmasi hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654562216.run(Script1733654562216.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753535726.png]]]]></system-out>
+         <system-err><![CDATA[09-12-2024T21:09:25 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data: Test Cases/TC - HK 007/TC 002 Tekan icon X untuk menutup konfirmasi hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 002 Tekan icon X untuk menutup konfirmasi hapus data.run(TC 002 Tekan icon X untuk menutup konfirmasi hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data" time="151.442" classname="Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xa;	at TC 003 Tekan tombol Cancel untuk membatalkan hapus data.run(TC 003 Tekan tombol Cancel untuk membatalkan hapus data:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[09-12-2024T21:12:16 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data: Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 003 Tekan tombol Cancel untuk membatalkan hapus data.run(TC 003 Tekan tombol Cancel untuk membatalkan hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+09-12-2024T21:12:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:12:17 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T21:12:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:12:17 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:12:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:12:18 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:12:18 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:12:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T21:12:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:12:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:13:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:13:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:13:01 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:13:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:13:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:13:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:13:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:13:36 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:13:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:13:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:13:46 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:13:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:13:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:13:57 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:13:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:14:04 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:14:05 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:14:08 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:14:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:14:11 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:14:11 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:14:11 - [TEST_STEP][FAILED] - click(findTestObject("Delete Employee/buttonDelete")): Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 003 Tekan tombol Cancel untuk membatalkan hapus data.run(TC 003 Tekan tombol Cancel untuk membatalkan hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654699013.run(Script1733654699013.groovy:36)
+	... 16 more
+)
+
+09-12-2024T21:14:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-12-2024T21:14:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Delete Employee/buttonDelete'. Try using Self-healing.
+
+09-12-2024T21:14:44 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+09-12-2024T21:14:47 - [MESSAGE][WARNING] - [SELF-HEALING] invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ec938a19d1e68d1c66c980b6b0885ff2, findElements {value=, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61307/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:21774/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec938a19d1e68d1c66c980b6b0885ff2
+
+09-12-2024T21:14:47 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+09-12-2024T21:14:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 003 Tekan tombol Cancel untuk membatalkan hapus data.run(TC 003 Tekan tombol Cancel untuk membatalkan hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654699013.run(Script1733654699013.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753687307.png]]]]></system-out>
+         <system-err><![CDATA[09-12-2024T21:12:16 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data: Test Cases/TC - HK 007/TC 003 Tekan tombol Cancel untuk membatalkan hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 003 Tekan tombol Cancel untuk membatalkan hapus data.run(TC 003 Tekan tombol Cancel untuk membatalkan hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data" time="158.056" classname="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xa;	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[09-12-2024T21:14:47 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+
+09-12-2024T21:14:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:14:50 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T21:14:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:14:51 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:14:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:14:51 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:14:51 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:14:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T21:14:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:14:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:15:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:15:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:15:35 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:15:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:15:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:15:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:15:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:16:04 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:16:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:16:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:16:27 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:16:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:16:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:16:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:16:43 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:16:44 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:16:51 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:16:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:16:51 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:16:51 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:16:51 - [TEST_STEP][FAILED] - click(findTestObject("Delete Employee/buttonDelete")): Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654847827.run(Script1733654847827.groovy:36)
+	... 16 more
+)
+
+09-12-2024T21:17:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-12-2024T21:17:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Delete Employee/buttonDelete'. Try using Self-healing.
+
+09-12-2024T21:17:24 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+09-12-2024T21:17:25 - [MESSAGE][WARNING] - [SELF-HEALING] invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [bcc8cbb35f4bc87805cebaac8f329e67, findElements {value=, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61391/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29111/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bcc8cbb35f4bc87805cebaac8f329e67
+
+09-12-2024T21:17:25 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+09-12-2024T21:17:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Delete Employee/buttonDelete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1733654847827.run(Script1733654847827.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Hapus Karywan\\20241209_202523\\1733753845685.png]]]]></system-out>
+         <system-err><![CDATA[09-12-2024T21:14:47 - [TEST_CASE][FAILED] - Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data: Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 004 Tekan tombol Yes untuk hapus data.run(TC 004 Tekan tombol Yes untuk hapus data:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus" time="108.239" classname="Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus" status="PASSED">
+         <system-out><![CDATA[09-12-2024T21:17:26 - [TEST_CASE][PASSED] - Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus: Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus
+
+09-12-2024T21:17:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:17:26 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T21:17:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:17:27 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T21:17:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:17:27 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T21:17:27 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:17:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T21:17:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T21:17:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T21:18:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T21:18:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T21:18:06 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T21:18:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:18:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T21:18:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T21:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T21:18:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:18:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T21:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T21:18:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:18:32 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T21:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T21:18:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:18:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T21:18:40 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T21:18:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T21:18:50 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T21:18:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T21:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T21:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T21:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:19:02 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T21:19:02 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T21:19:03 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T21:19:06 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:19:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T21:19:06 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:19:06 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T21:19:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+09-12-2024T21:19:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-12-2024T21:19:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T21:19:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2024T21:04:05 - [TEST_SUITE][FAILED] - Hapus Karywan: Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[09-12-2024T21:04:05 - [TEST_SUITE][FAILED] - Hapus Karywan: Test Cases/TC - HK 007/TC 001 Muncul konfirmasi sebelum hapus karyawan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Delete Employee/buttonDelete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 001 Muncul konfirmasi sebelum hapus karyawan.run(TC 001 Muncul konfirmasi sebelum hapus karyawan:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1733750723415.run(TempTestSuite1733750723415.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Delete Employee/buttonDelete' located by '(//button[@type='button'])[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

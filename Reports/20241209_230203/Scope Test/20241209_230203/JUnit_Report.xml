@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scope Test" time="222.298" tests="6" failures="0" errors="0">
+   <testsuite name="Scope Test" tests="6" failures="0" errors="0" time="222.298" skipped="0" timestamp="09-12-2024T23:02:17" hostname="rafki - Tester" id="Test Suites/Scope Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_230203\\Scope Test\\20241209_230203"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_230203\\Scope Test\\20241209_230203\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafki - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.46"/>
+         <property name="sessionId" value="42fafc22badf19f218ed48b8229cff25"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Scope Test/TC 001 Login berhasil" time="34.396" classname="Test Cases/Scope Test/TC 001 Login berhasil" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:02:18 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 001 Login berhasil: Test Cases/Scope Test/TC 001 Login berhasil
+
+09-12-2024T23:02:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:02:19 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:02:19 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:02:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:02:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:02:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:02:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:02:37 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:02:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:02:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:02:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:02:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:02:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:02:46 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:02:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:02:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scope Test/TC 001 Membuka fitur PIM" time="32.784" classname="Test Cases/Scope Test/TC 001 Membuka fitur PIM" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:02:52 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 001 Membuka fitur PIM: Test Cases/Scope Test/TC 001 Membuka fitur PIM
+
+09-12-2024T23:02:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:02:53 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T23:02:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:02:53 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:02:53 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:02:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T23:02:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:02:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:03:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:03:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:03:07 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:03:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:03:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:03:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:03:14 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:03:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:03:21 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:03:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scope Test/TC 002 Buat data karyawan" time="38.232" classname="Test Cases/Scope Test/TC 002 Buat data karyawan" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:03:25 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 002 Buat data karyawan: Test Cases/Scope Test/TC 002 Buat data karyawan
+
+09-12-2024T23:03:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:03:26 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T23:03:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:03:26 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:03:26 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:03:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T23:03:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:03:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:03:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:03:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:03:36 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:03:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:03:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:03:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:03:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:03:42 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:03:48 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:03:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:03:51 - [TEST_STEP][PASSED] - click(findTestObject("PIM/addButton")): Object: 'Object Repository/PIM/addButton' is clicked on
+
+09-12-2024T23:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/addButton' is clicked on
+
+09-12-2024T23:03:52 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputFirstname")): Object: 'Object Repository/PIM/inputFirstname' is clicked on
+
+09-12-2024T23:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputFirstname' is clicked on
+
+09-12-2024T23:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputFirstname"), "Rafki"): Text 'Rafki' is set on object 'Object Repository/PIM/inputFirstname'
+
+09-12-2024T23:03:54 - [MESSAGE][PASSED] - Text 'Rafki' is set on object 'Object Repository/PIM/inputFirstname'
+
+09-12-2024T23:03:54 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputMiddlename")): Object: 'Object Repository/PIM/inputMiddlename' is clicked on
+
+09-12-2024T23:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputMiddlename' is clicked on
+
+09-12-2024T23:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputMiddlename"), "Mustafa"): Text 'Mustafa' is set on object 'Object Repository/PIM/inputMiddlename'
+
+09-12-2024T23:03:56 - [MESSAGE][PASSED] - Text 'Mustafa' is set on object 'Object Repository/PIM/inputMiddlename'
+
+09-12-2024T23:03:56 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputLastname")): Object: 'Object Repository/PIM/inputLastname' is clicked on
+
+09-12-2024T23:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputLastname' is clicked on
+
+09-12-2024T23:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputLastname"), "Abdullah Kafi"): Text 'Abdullah Kafi' is set on object 'Object Repository/PIM/inputLastname'
+
+09-12-2024T23:03:58 - [MESSAGE][PASSED] - Text 'Abdullah Kafi' is set on object 'Object Repository/PIM/inputLastname'
+
+09-12-2024T23:03:58 - [TEST_STEP][PASSED] - click(findTestObject("PIM/inputEmployeeid")): Object: 'Object Repository/PIM/inputEmployeeid' is clicked on
+
+09-12-2024T23:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/inputEmployeeid' is clicked on
+
+09-12-2024T23:03:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("PIM/inputEmployeeid"), Keys.chord(CONTROL, "a", DELETE)): Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T23:03:58 - [MESSAGE][PASSED] - Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T23:03:58 - [TEST_STEP][PASSED] - setText(findTestObject("PIM/inputEmployeeid"), "060997"): Text '060997' is set on object 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T23:03:59 - [MESSAGE][PASSED] - Text '060997' is set on object 'Object Repository/PIM/inputEmployeeid'
+
+09-12-2024T23:03:59 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonSave")): Object: 'Object Repository/PIM/buttonSave' is clicked on
+
+09-12-2024T23:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonSave' is clicked on
+
+09-12-2024T23:04:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T23:04:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T23:04:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T23:04:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scope Test/TC 004 Mengubah Employee id karyawan" time="40.944" classname="Test Cases/Scope Test/TC 004 Mengubah Employee id karyawan" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:04:03 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 004 Mengubah Employee id karyawan: Test Cases/Scope Test/TC 004 Mengubah Employee id karyawan
+
+09-12-2024T23:04:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:04:04 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T23:04:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:04:04 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T23:04:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:04:04 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:04:04 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:04:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:04:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:04:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:04:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:04:12 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:04:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:04:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:04:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:04:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:04:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:04:14 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:04:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:04:16 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:04:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:04:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:04:21 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:04:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:04:21 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:04:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:04:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:04:26 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:04:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:04:26 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "060997"): Text '060997' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:04:29 - [MESSAGE][PASSED] - Text '060997' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:04:30 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:04:32 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:04:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:04:32 - [TEST_STEP][PASSED] - verifyMatch("060997", "060997", false): Actual text '060997' and expected text '060997' are matched 
+
+09-12-2024T23:04:32 - [MESSAGE][PASSED] - Actual text '060997' and expected text '060997' are matched 
+
+09-12-2024T23:04:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T23:04:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T23:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee/buttonEditemployee")): Object: 'Object Repository/Edit Employee/buttonEditemployee' is clicked on
+
+09-12-2024T23:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee/buttonEditemployee' is clicked on
+
+09-12-2024T23:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee/inputEmployeeid")): Object: 'Object Repository/Edit Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:04:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Edit Employee/inputEmployeeid"), Keys.chord(CONTROL, "a", DELETE)): Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/Edit Employee/inputEmployeeid'
+
+09-12-2024T23:04:38 - [MESSAGE][PASSED] - Keys 'CONTROL + DELETE + a' sent to object: 'Object Repository/Edit Employee/inputEmployeeid'
+
+09-12-2024T23:04:38 - [TEST_STEP][PASSED] - setText(findTestObject("Edit Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Edit Employee/inputEmployeeid'
+
+09-12-2024T23:04:39 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Edit Employee/inputEmployeeid'
+
+09-12-2024T23:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Edit Employee/buttonSave")): Object: 'Object Repository/Edit Employee/buttonSave' is clicked on
+
+09-12-2024T23:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Employee/buttonSave' is clicked on
+
+09-12-2024T23:04:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Edit Employee/toasSuccess"), 0): Object 'Object Repository/Edit Employee/toasSuccess' is present
+
+09-12-2024T23:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:04:40 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Employee/toasSuccess' is present
+
+09-12-2024T23:04:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-12-2024T23:04:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-12-2024T23:04:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T23:04:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scope Test/TC 004 Tekan tombol Yes untuk hapus data" time="37.211" classname="Test Cases/Scope Test/TC 004 Tekan tombol Yes untuk hapus data" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:04:44 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 004 Tekan tombol Yes untuk hapus data: Test Cases/Scope Test/TC 004 Tekan tombol Yes untuk hapus data
+
+09-12-2024T23:04:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:04:45 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T23:04:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:04:45 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T23:04:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:04:45 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:04:45 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:04:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:04:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:04:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:04:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:04:53 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:04:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:04:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:04:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:04:55 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:04:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:04:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:04:57 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:04:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:04:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:05:02 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:05:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:05:07 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:05:09 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:05:10 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:05:11 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:05:13 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:05:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:05:13 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T23:05:13 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T23:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonDelete")): Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+09-12-2024T23:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonDelete' is clicked on
+
+09-12-2024T23:05:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/alertConfirmdelete"), 0): Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+09-12-2024T23:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/alertConfirmdelete' is present
+
+09-12-2024T23:05:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T23:05:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T23:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Delete Employee/buttonYesdelete")): Object: 'Object Repository/Delete Employee/buttonYesdelete' is clicked on
+
+09-12-2024T23:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Employee/buttonYesdelete' is clicked on
+
+09-12-2024T23:05:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Delete Employee/toasSuccess"), 0): Object 'Object Repository/Delete Employee/toasSuccess' is present
+
+09-12-2024T23:05:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/Delete Employee/toasSuccess' is present
+
+09-12-2024T23:05:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+09-12-2024T23:05:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+09-12-2024T23:05:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T23:05:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scope Test/TC 005 Validasi data yang dihapus" time="37.784" classname="Test Cases/Scope Test/TC 005 Validasi data yang dihapus" status="PASSED">
+         <system-out><![CDATA[09-12-2024T23:05:22 - [TEST_CASE][PASSED] - Test Cases/Scope Test/TC 005 Validasi data yang dihapus: Test Cases/Scope Test/TC 005 Validasi data yang dihapus
+
+09-12-2024T23:05:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - TK 004/TC 001 Membuka fitur PIM"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:05:22 - [TEST_CASE][PASSED] - Test Cases/TC - TK 004/TC 001 Membuka fitur PIM: Test Cases/TC - TK 004/TC 001 Membuka fitur PIM
+
+09-12-2024T23:05:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - LW 002/TC 001 Login berhasil"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:05:22 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T23:05:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:05:22 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T23:05:22 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:05:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T23:05:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T23:05:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T23:05:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T23:05:33 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T23:05:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T23:05:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T23:05:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T23:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:05:38 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T23:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T23:05:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:05:40 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T23:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T23:05:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:46 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - LW 002/TC 001 Login berhasil' successfully
+
+09-12-2024T23:05:46 - [TEST_STEP][PASSED] - click(findTestObject("PIM/buttonMenupim")): Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM/buttonMenupim' is clicked on
+
+09-12-2024T23:05:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T23:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T23:05:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - TK 004/TC 001 Membuka fitur PIM' successfully
+
+09-12-2024T23:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputUsername")): Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputUsername' is clicked on
+
+09-12-2024T23:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/inputEmployeeid")): Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/inputEmployeeid' is clicked on
+
+09-12-2024T23:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search Employee/inputEmployeeid"), "970906"): Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:05:51 - [MESSAGE][PASSED] - Text '970906' is set on object 'Object Repository/Search Employee/inputEmployeeid'
+
+09-12-2024T23:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Employee/buttonSearch")): Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/buttonSearch' is clicked on
+
+09-12-2024T23:05:52 - [TEST_STEP][PASSED] - focus(findTestObject("Search Employee/tableEmployee")): Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Employee/tableEmployee' is focused
+
+09-12-2024T23:05:53 - [TEST_STEP][PASSED] - getText(findTestObject("Search Employee/inputEmployeeid")): Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:05:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Employee/inputEmployeeid' is: ''
+
+09-12-2024T23:05:53 - [TEST_STEP][PASSED] - verifyMatch("970906", "970906", false): Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T23:05:53 - [MESSAGE][PASSED] - Actual text '970906' and expected text '970906' are matched 
+
+09-12-2024T23:05:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+09-12-2024T23:05:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-12-2024T23:05:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T23:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2024T23:02:17 - [TEST_SUITE][PASSED] - Scope Test: Test Cases/Scope Test/TC 005 Validasi data yang dihapus]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

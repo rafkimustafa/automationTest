@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 004 Mengubah Employee id karyawan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>def0df30-3bb3-4f49-82f5-f85fe182a507</testCaseGuid>
+</TestCaseEntity>

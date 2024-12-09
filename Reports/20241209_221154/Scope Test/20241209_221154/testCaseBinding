@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/TC - LW 002/TC 001 Login berhasil","testCaseId":"Test Cases/TC - LW 002/TC 001 Login berhasil","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 001 Membuka fitur PIM","testCaseId":"Test Cases/TC - TK 004/TC 001 Membuka fitur PIM","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 002 Buat data karyawan","testCaseId":"Test Cases/TC - TK 004/TC 002 Buat data karyawan","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - CK 005/TC 006 Cari nama karyawan Username valid dan Employee id valid","testCaseId":"Test Cases/TC - CK 005/TC 006 Cari nama karyawan Username valid dan Employee id valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - EK 006/TC 004 Mengubah Employee id karyawan","testCaseId":"Test Cases/TC - EK 006/TC 004 Mengubah Employee id karyawan","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data","testCaseId":"Test Cases/TC - HK 007/TC 004 Tekan tombol Yes untuk hapus data","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus","testCaseId":"Test Cases/TC - HK 007/TC 005 Validasi data yang dihapus","iterationVariableName":""}
