@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Buka URL Web,Chrome 131.0.0.0,,,09-12-2024 17:07:40,09-12-2024 17:10:13,"2m - 33,296s",PASSED
+,,,,,,,
+Test Cases/TC - OW 001/TC 001 Link website benar,Chrome 131.0.0.0,,,09-12-2024 17:07:43,09-12-2024 17:09:16,"1m - 32,612s",PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/web/index.php/"")",Chrome 131.0.0.0,,,09-12-2024 17:07:46,09-12-2024 17:09:14,"1m - 27,879s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,09-12-2024 17:09:14,09-12-2024 17:09:15,"0,864s",PASSED
+"verifyElementPresent(findTestObject(""Login/textLogin""), 0)",Chrome 131.0.0.0,,,09-12-2024 17:09:15,09-12-2024 17:09:16,"1,306s",PASSED
+,,,,,,,
+Test Cases/TC - OW 001/TC 002 Link website salah,Chrome 131.0.0.0,,,09-12-2024 17:09:16,09-12-2024 17:10:13,"57,062s",PASSED
+"openBrowser(""www.google.com"")",Chrome 131.0.0.0,,,09-12-2024 17:09:17,09-12-2024 17:10:04,"46,971s",PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,09-12-2024 17:10:04,09-12-2024 17:10:05,"1,162s",PASSED
+"verifyMatch(""https://opensource-demo.orangehrmlive.com/web/index.php"", ""https://opensource-demo.orangehrmlive.com/web/index.php"", false)",Chrome 131.0.0.0,,,09-12-2024 17:10:05,09-12-2024 17:10:06,"0,252s",PASSED
+delay(2),Chrome 131.0.0.0,,,09-12-2024 17:10:06,09-12-2024 17:10:08,"2,100s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,09-12-2024 17:10:08,09-12-2024 17:10:13,"5,359s",PASSED
