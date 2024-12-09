@@ -1,7 +1,0 @@
-{"testCaseName":"Test Cases/TC - LW 002/TC 001 Login berhasil","testCaseId":"Test Cases/TC - LW 002/TC 001 Login berhasil","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 002 Login gagal username salah","testCaseId":"Test Cases/TC - LW 002/TC 002 Login gagal username salah","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 003 Login gagal password salah","testCaseId":"Test Cases/TC - LW 002/TC 003 Login gagal password salah","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 004 Username kosong","testCaseId":"Test Cases/TC - LW 002/TC 004 Username kosong","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 005 Password kosong","testCaseId":"Test Cases/TC - LW 002/TC 005 Password kosong","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 006 Username dan password kosong","testCaseId":"Test Cases/TC - LW 002/TC 006 Username dan password kosong","iterationVariableName":""}
-{"testCaseName":"Test Cases/TC - LW 002/TC 007 Tidak klik tombol login","testCaseId":"Test Cases/TC - LW 002/TC 007 Tidak klik tombol login","iterationVariableName":""}
