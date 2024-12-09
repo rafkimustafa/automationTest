@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buka URL Web" time="98.243" tests="2" failures="0" errors="0">
+   <testsuite name="Buka URL Web" tests="2" failures="0" errors="0" time="98.243" skipped="0" timestamp="09-12-2024T16:56:49" hostname="TESTER$ - Tester" id="Test Suites/Buka URL Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_165548\\Buka URL Web\\20241209_165602"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_165548\\Buka URL Web\\20241209_165602\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TESTER$ - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.46"/>
+         <property name="sessionId" value="7680e04da635dbfd0615d6438f3594b0"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC - OW 001/TC 001 Link website benar" time="49.732" classname="Test Cases/TC - OW 001/TC 001 Link website benar" status="PASSED">
+         <system-out><![CDATA[09-12-2024T16:56:51 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T16:56:54 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T16:56:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T16:56:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T16:57:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T16:57:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T16:57:38 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T16:57:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T16:57:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T16:57:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - OW 001/TC 002 Link website salah" time="46.454" classname="Test Cases/TC - OW 001/TC 002 Link website salah" status="PASSED">
+         <system-out><![CDATA[09-12-2024T16:57:41 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 002 Link website salah: Test Cases/TC - OW 001/TC 002 Link website salah
+
+09-12-2024T16:57:43 - [TEST_STEP][PASSED] - openBrowser("www.google.com"): Browser is opened with url: 'www.google.com'
+
+09-12-2024T16:57:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T16:57:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T16:57:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T16:58:21 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.com'
+
+09-12-2024T16:58:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T16:58:22 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T16:58:22 - [TEST_STEP][PASSED] - verifyMatch("https://opensource-demo.orangehrmlive.com/web/index.php", "https://opensource-demo.orangehrmlive.com/web/index.php", false): Actual text 'https://opensource-demo.orangehrmlive.com/web/index.php' and expected text 'https://opensource-demo.orangehrmlive.com/web/index.php' are matched 
+
+09-12-2024T16:58:22 - [MESSAGE][PASSED] - Actual text 'https://opensource-demo.orangehrmlive.com/web/index.php' and expected text 'https://opensource-demo.orangehrmlive.com/web/index.php' are matched 
+
+09-12-2024T16:58:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T16:58:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T16:58:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T16:58:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2024T16:56:49 - [TEST_SUITE][PASSED] - Buka URL Web: Test Cases/TC - OW 001/TC 002 Link website salah]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
