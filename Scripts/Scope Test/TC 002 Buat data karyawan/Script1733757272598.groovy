@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('PIM/inputEmployeeid'), '060997')
 
 WebUI.click(findTestObject('PIM/buttonSave'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
