@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d56f532f-4a05-47cf-a915-ad94e6583266</testSuiteGuid>
    <testCaseLink>
+      <guid>e3d29f9b-87ce-42ba-a7cb-e6fec30f3b1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC - TK 004/TC 002 Buat data karyawan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a807642c-a1b0-4df4-b0f7-c6df984e0008</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

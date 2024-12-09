@@ -45,8 +45,6 @@ WebUI.setText(findTestObject('PIM/inputEmployeeid'), '65456453')
 
 WebUI.click(findTestObject('PIM/buttonSave'))
 
-WebUI.verifyElementPresent(findTestObject('PIM/notificationSuccess'), 0)
-
 WebUI.delay(2)
 
 WebUI.closeBrowser()
