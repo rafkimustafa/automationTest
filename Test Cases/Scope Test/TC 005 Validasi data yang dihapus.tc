@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 005 Validasi data yang dihapus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63961aba-daff-46d0-9ad3-01cd51d10182</testCaseGuid>
+</TestCaseEntity>

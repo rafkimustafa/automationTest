@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Website" time="310.485" tests="7" failures="0" errors="0">
+   <testsuite name="Login Website" tests="7" failures="0" errors="0" time="310.485" skipped="0" timestamp="09-12-2024T17:39:40" hostname="TESTER$ - Tester" id="Test Suites/Login Website">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Login Website\\20241209_173309"/>
+         <property name="logFiles" value="C:\\Users\\rafki\\git\\automationTesting\\Reports\\20241209_173237\\Login Website\\20241209_173309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TESTER$ - Tester"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.46"/>
+         <property name="sessionId" value="54e5990363579b710ee0d69826ba9627"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC - LW 002/TC 001 Login berhasil" time="89.802" classname="Test Cases/TC - LW 002/TC 001 Login berhasil" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:39:42 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 001 Login berhasil: Test Cases/TC - LW 002/TC 001 Login berhasil
+
+09-12-2024T17:39:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:39:45 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:39:46 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:39:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:39:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:40:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:40:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:40:16 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:40:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:40:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:40:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:40:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:40:48 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:40:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dashboard/textDashboard"), 0): Object 'Object Repository/Dashboard/textDashboard' is present
+
+09-12-2024T17:40:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/textDashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 002 Login gagal username salah" time="55.27" classname="Test Cases/TC - LW 002/TC 002 Login gagal username salah" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:41:13 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 002 Login gagal username salah: Test Cases/TC - LW 002/TC 002 Login gagal username salah
+
+09-12-2024T17:41:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:41:19 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:41:19 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:41:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-12-2024T17:41:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:41:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:41:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:41:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:41:41 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:41:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:41:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:41:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:41:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:41:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "adm"): Text 'adm' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:41:52 - [MESSAGE][PASSED] - Text 'adm' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:41:58 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:42:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textInvalidcredentials"), 0): Object 'Object Repository/Login/textInvalidcredentials' is present
+
+09-12-2024T17:42:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textInvalidcredentials' is present
+
+09-12-2024T17:42:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:42:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:42:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:42:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 003 Login gagal password salah" time="26.33" classname="Test Cases/TC - LW 002/TC 003 Login gagal password salah" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:42:08 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 003 Login gagal password salah: Test Cases/TC - LW 002/TC 003 Login gagal password salah
+
+09-12-2024T17:42:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:42:08 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:42:08 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:42:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:42:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:42:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:42:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:42:21 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:42:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:42:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:42:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:42:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:42:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:42:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:42:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:42:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textInvalidcredentials"), 0): Object 'Object Repository/Login/textInvalidcredentials' is present
+
+09-12-2024T17:42:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textInvalidcredentials' is present
+
+09-12-2024T17:42:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:42:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:42:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:42:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 004 Username kosong" time="32.196" classname="Test Cases/TC - LW 002/TC 004 Username kosong" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:42:34 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 004 Username kosong: Test Cases/TC - LW 002/TC 004 Username kosong
+
+09-12-2024T17:42:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:42:35 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:42:35 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:42:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:42:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:42:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:42:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:42:51 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:42:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:42:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:42:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), ""): Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:42:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:43:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:43:03 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:43:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textRequiredusername"), 0): Object 'Object Repository/Login/textRequiredusername' is present
+
+09-12-2024T17:43:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textRequiredusername' is present
+
+09-12-2024T17:43:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:43:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:43:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:43:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 005 Password kosong" time="44.038" classname="Test Cases/TC - LW 002/TC 005 Password kosong" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:43:07 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 005 Password kosong: Test Cases/TC - LW 002/TC 005 Password kosong
+
+09-12-2024T17:43:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:43:07 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:43:08 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:43:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:43:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:43:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:43:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:43:36 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:43:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:43:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:43:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:43:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:43:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), ""): Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:43:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:43:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textRequiredpassword"), 0): Object 'Object Repository/Login/textRequiredpassword' is present
+
+09-12-2024T17:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:43:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textRequiredpassword' is present
+
+09-12-2024T17:43:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:43:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:43:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:43:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 006 Username dan password kosong" time="37.766" classname="Test Cases/TC - LW 002/TC 006 Username dan password kosong" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:43:51 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 006 Username dan password kosong: Test Cases/TC - LW 002/TC 006 Username dan password kosong
+
+09-12-2024T17:43:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:43:51 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:43:51 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:43:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:43:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:44:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:44:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:44:09 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:44:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:44:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:44:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), ""): Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:44:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), ""): Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:44:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/buttonLogin")): Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/buttonLogin' is clicked on
+
+09-12-2024T17:44:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textRequiredusername"), 0): Object 'Object Repository/Login/textRequiredusername' is present
+
+09-12-2024T17:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:44:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textRequiredusername' is present
+
+09-12-2024T17:44:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textRequiredpassword"), 0): Object 'Object Repository/Login/textRequiredpassword' is present
+
+09-12-2024T17:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textRequiredpassword' is present
+
+09-12-2024T17:44:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:44:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:44:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:44:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - LW 002/TC 007 Tidak klik tombol login" time="22.178" classname="Test Cases/TC - LW 002/TC 007 Tidak klik tombol login" status="PASSED">
+         <system-out><![CDATA[09-12-2024T17:44:29 - [TEST_CASE][PASSED] - Test Cases/TC - LW 002/TC 007 Tidak klik tombol login: Test Cases/TC - LW 002/TC 007 Tidak klik tombol login
+
+09-12-2024T17:44:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC - OW 001/TC 001 Link website benar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:44:29 - [TEST_CASE][PASSED] - Test Cases/TC - OW 001/TC 001 Link website benar: Test Cases/TC - OW 001/TC 001 Link website benar
+
+09-12-2024T17:44:29 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:44:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-12-2024T17:44:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-12-2024T17:44:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/'
+
+09-12-2024T17:44:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-12-2024T17:44:43 - [MESSAGE][PASSED] - Current window maximized
+
+09-12-2024T17:44:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/textLogin"), 0): Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:44:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-12-2024T17:44:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/textLogin' is present
+
+09-12-2024T17:44:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC - OW 001/TC 001 Link website benar' successfully
+
+09-12-2024T17:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputUsername")): Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputUsername' is clicked on
+
+09-12-2024T17:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputUsername"), ""): Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:44:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputUsername'
+
+09-12-2024T17:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/inputPaasword")): Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/inputPaasword' is clicked on
+
+09-12-2024T17:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/inputPaasword"), ""): Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:44:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/inputPaasword'
+
+09-12-2024T17:44:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+09-12-2024T17:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-12-2024T17:44:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-12-2024T17:44:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-12-2024T17:39:40 - [TEST_SUITE][PASSED] - Login Website: Test Cases/TC - LW 002/TC 007 Tidak klik tombol login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/TC - TK 004/TC 001 Membuka fitur PIM","testCaseId":"Test Cases/TC - TK 004/TC 001 Membuka fitur PIM","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 002 Buat data karyawan","testCaseId":"Test Cases/TC - TK 004/TC 002 Buat data karyawan","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 003 First Name karyawan kosong","testCaseId":"Test Cases/TC - TK 004/TC 003 First Name karyawan kosong","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 005 Middle Name karyawan kosong","testCaseId":"Test Cases/TC - TK 004/TC 005 Middle Name karyawan kosong","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 006 Last Name karyawan kosong","testCaseId":"Test Cases/TC - TK 004/TC 006 Last Name karyawan kosong","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 007 Employee ID karyawan duplikat","testCaseId":"Test Cases/TC - TK 004/TC 007 Employee ID karyawan duplikat","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 008 Employee ID 10 karakter","testCaseId":"Test Cases/TC - TK 004/TC 008 Employee ID 10 karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 009 Employee ID lebih 10 karakter","testCaseId":"Test Cases/TC - TK 004/TC 009 Employee ID lebih 10 karakter","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 010 Tambah karyawan dengan foto","testCaseId":"Test Cases/TC - TK 004/TC 010 Tambah karyawan dengan foto","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 011 Tambah foto karyawan dengan file dokumen","testCaseId":"Test Cases/TC - TK 004/TC 011 Tambah foto karyawan dengan file dokumen","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC - TK 004/TC 012 tombol cancel tambah karaywan","testCaseId":"Test Cases/TC - TK 004/TC 012 tombol cancel tambah karaywan","iterationVariableName":""}
