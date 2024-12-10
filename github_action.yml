@@ -1,0 +1,7 @@
+- name: Katalon Report Uploader
+  uses: katalon-studio/report-uploader@v0.0.8
+  env:
+    PASSWORD: 97315b86-7166-41da-a63a-ad8d567b6fab
+    PROJECT_ID: 1770654
+    TYPE: junit
+    REPORT_PATH: 
