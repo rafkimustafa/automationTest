@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 003 Cari nama karyawan terdaftar Username invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca08eabd-175a-4303-8c11-079164d45719</testCaseGuid>
+</TestCaseEntity>

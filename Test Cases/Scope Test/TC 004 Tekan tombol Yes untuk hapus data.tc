@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 004 Tekan tombol Yes untuk hapus data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b020429c-1b16-438d-a8fd-39d47720ef7c</testCaseGuid>
+</TestCaseEntity>

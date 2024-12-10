@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 018 Tombol reset menghapus value input Employee id dan Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a53cfd84-e1d3-464a-b38c-388e80904919</testCaseGuid>
+</TestCaseEntity>

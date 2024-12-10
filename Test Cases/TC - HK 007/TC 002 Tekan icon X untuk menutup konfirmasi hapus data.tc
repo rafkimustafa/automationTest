@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 002 Tekan icon X untuk menutup konfirmasi hapus data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99eb7690-fccc-463d-baed-eed00f53a2ce</testCaseGuid>
+</TestCaseEntity>

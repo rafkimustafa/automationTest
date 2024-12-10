@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scope Test,Chrome 131.0.0.0,,,10-12-2024 02:13:13,10-12-2024 02:19:44,6m - 31.829s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 001 Login berhasil,Chrome 131.0.0.0,,,10-12-2024 02:13:14,10-12-2024 02:14:14,1m - 0.162s,PASSED
+"callTestCase(findTestCase(""TC - OW 001/TC 001 Link website benar""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:13:17,10-12-2024 02:14:00,43.447s,PASSED
+"click(findTestObject(""Login/inputUsername""))",Chrome 131.0.0.0,,,10-12-2024 02:14:00,10-12-2024 02:14:01,1.113s,PASSED
+"setText(findTestObject(""Login/inputUsername""), ""admin"")",Chrome 131.0.0.0,,,10-12-2024 02:14:01,10-12-2024 02:14:05,3.655s,PASSED
+"click(findTestObject(""Login/inputPaasword""))",Chrome 131.0.0.0,,,10-12-2024 02:14:05,10-12-2024 02:14:07,1.641s,PASSED
+"setText(findTestObject(""Login/inputPaasword""), ""admin123"")",Chrome 131.0.0.0,,,10-12-2024 02:14:07,10-12-2024 02:14:08,1.547s,PASSED
+"click(findTestObject(""Login/buttonLogin""))",Chrome 131.0.0.0,,,10-12-2024 02:14:08,10-12-2024 02:14:11,2.412s,PASSED
+"verifyElementPresent(findTestObject(""Dashboard/textDashboard""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:14:11,10-12-2024 02:14:14,3.057s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 001 Membuka fitur PIM,Chrome 131.0.0.0,,,10-12-2024 02:14:14,10-12-2024 02:15:06,51.723s,PASSED
+"callTestCase(findTestCase(""TC - LW 002/TC 001 Login berhasil""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:14:16,10-12-2024 02:15:01,45.185s,PASSED
+"click(findTestObject(""PIM/buttonMenupim""))",Chrome 131.0.0.0,,,10-12-2024 02:15:01,10-12-2024 02:15:04,2.500s,PASSED
+"verifyElementPresent(findTestObject(""Dashboard/textDashboard""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:15:04,10-12-2024 02:15:06,1.777s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 002 Buat data karyawan,Chrome 131.0.0.0,,,10-12-2024 02:15:06,10-12-2024 02:15:58,52.622s,PASSED
+"callTestCase(findTestCase(""TC - LW 002/TC 001 Login berhasil""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:15:06,10-12-2024 02:15:37,30.187s,PASSED
+"click(findTestObject(""PIM/buttonMenupim""))",Chrome 131.0.0.0,,,10-12-2024 02:15:37,10-12-2024 02:15:40,3.416s,PASSED
+"verifyElementPresent(findTestObject(""Dashboard/textDashboard""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:15:40,10-12-2024 02:15:42,1.908s,PASSED
+"click(findTestObject(""PIM/addButton""))",Chrome 131.0.0.0,,,10-12-2024 02:15:42,10-12-2024 02:15:43,1.248s,PASSED
+"click(findTestObject(""PIM/inputFirstname""))",Chrome 131.0.0.0,,,10-12-2024 02:15:43,10-12-2024 02:15:45,1.931s,PASSED
+"setText(findTestObject(""PIM/inputFirstname""), ""Rafki"")",Chrome 131.0.0.0,,,10-12-2024 02:15:45,10-12-2024 02:15:46,0.822s,PASSED
+"click(findTestObject(""PIM/inputMiddlename""))",Chrome 131.0.0.0,,,10-12-2024 02:15:46,10-12-2024 02:15:47,0.651s,PASSED
+"setText(findTestObject(""PIM/inputMiddlename""), ""Mustafa"")",Chrome 131.0.0.0,,,10-12-2024 02:15:47,10-12-2024 02:15:47,0.860s,PASSED
+"click(findTestObject(""PIM/inputLastname""))",Chrome 131.0.0.0,,,10-12-2024 02:15:47,10-12-2024 02:15:48,0.487s,PASSED
+"setText(findTestObject(""PIM/inputLastname""), ""Abdullah Kafi"")",Chrome 131.0.0.0,,,10-12-2024 02:15:48,10-12-2024 02:15:49,0.971s,PASSED
+"click(findTestObject(""PIM/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:15:49,10-12-2024 02:15:50,0.869s,PASSED
+"sendKeys(findTestObject(""PIM/inputEmployeeid""), Keys.chord(CONTROL, ""a"", DELETE))",Chrome 131.0.0.0,,,10-12-2024 02:15:50,10-12-2024 02:15:51,0.929s,PASSED
+"setText(findTestObject(""PIM/inputEmployeeid""), ""060997"")",Chrome 131.0.0.0,,,10-12-2024 02:15:51,10-12-2024 02:15:53,1.999s,PASSED
+"click(findTestObject(""PIM/buttonSave""))",Chrome 131.0.0.0,,,10-12-2024 02:15:53,10-12-2024 02:15:54,1.007s,PASSED
+delay(3),Chrome 131.0.0.0,,,10-12-2024 02:15:54,10-12-2024 02:15:57,3.144s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,10-12-2024 02:15:57,10-12-2024 02:15:58,1.409s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 004 Mengubah Employee id karyawan,Chrome 131.0.0.0,,,10-12-2024 02:15:58,10-12-2024 02:17:33,1m - 35.043s,PASSED
+"callTestCase(findTestCase(""TC - TK 004/TC 001 Membuka fitur PIM""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:15:59,10-12-2024 02:17:05,1m - 6.022s,PASSED
+"click(findTestObject(""Search Employee/inputUsername""))",Chrome 131.0.0.0,,,10-12-2024 02:17:05,10-12-2024 02:17:06,1.481s,PASSED
+"click(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:17:06,10-12-2024 02:17:08,1.173s,PASSED
+"setText(findTestObject(""Search Employee/inputEmployeeid""), ""060997"")",Chrome 131.0.0.0,,,10-12-2024 02:17:08,10-12-2024 02:17:09,1.117s,PASSED
+"click(findTestObject(""Search Employee/buttonSearch""))",Chrome 131.0.0.0,,,10-12-2024 02:17:09,10-12-2024 02:17:11,1.949s,PASSED
+"focus(findTestObject(""Search Employee/tableEmployee""))",Chrome 131.0.0.0,,,10-12-2024 02:17:11,10-12-2024 02:17:13,2.698s,PASSED
+"getText(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:17:13,10-12-2024 02:17:14,0.430s,PASSED
+"verifyMatch(""060997"", ""060997"", false)",Chrome 131.0.0.0,,,10-12-2024 02:17:14,10-12-2024 02:17:14,0.339s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 02:17:14,10-12-2024 02:17:17,2.471s,PASSED
+"click(findTestObject(""Edit Employee/buttonEditemployee""))",Chrome 131.0.0.0,,,10-12-2024 02:17:17,10-12-2024 02:17:19,2.941s,PASSED
+"click(findTestObject(""Edit Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:17:19,10-12-2024 02:17:23,3.021s,PASSED
+"sendKeys(findTestObject(""Edit Employee/inputEmployeeid""), Keys.chord(CONTROL, ""a"", DELETE))",Chrome 131.0.0.0,,,10-12-2024 02:17:23,10-12-2024 02:17:23,0.513s,PASSED
+"setText(findTestObject(""Edit Employee/inputEmployeeid""), ""970906"")",Chrome 131.0.0.0,,,10-12-2024 02:17:23,10-12-2024 02:17:24,0.877s,PASSED
+"click(findTestObject(""Edit Employee/buttonSave""))",Chrome 131.0.0.0,,,10-12-2024 02:17:24,10-12-2024 02:17:25,0.877s,PASSED
+"verifyElementPresent(findTestObject(""Edit Employee/toasSuccess""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:17:25,10-12-2024 02:17:26,0.924s,PASSED
+delay(3),Chrome 131.0.0.0,,,10-12-2024 02:17:26,10-12-2024 02:17:29,3.215s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,10-12-2024 02:17:29,10-12-2024 02:17:33,4.459s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 004 Tekan tombol Yes untuk hapus data,Chrome 131.0.0.0,,,10-12-2024 02:17:33,10-12-2024 02:18:46,1m - 12.359s,PASSED
+"callTestCase(findTestCase(""TC - TK 004/TC 001 Membuka fitur PIM""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:17:34,10-12-2024 02:18:22,48.284s,PASSED
+"click(findTestObject(""Search Employee/inputUsername""))",Chrome 131.0.0.0,,,10-12-2024 02:18:22,10-12-2024 02:18:26,3.184s,PASSED
+"click(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:18:26,10-12-2024 02:18:27,1.543s,PASSED
+"setText(findTestObject(""Search Employee/inputEmployeeid""), ""970906"")",Chrome 131.0.0.0,,,10-12-2024 02:18:27,10-12-2024 02:18:30,2.654s,PASSED
+"click(findTestObject(""Search Employee/buttonSearch""))",Chrome 131.0.0.0,,,10-12-2024 02:18:30,10-12-2024 02:18:32,1.684s,PASSED
+"focus(findTestObject(""Search Employee/tableEmployee""))",Chrome 131.0.0.0,,,10-12-2024 02:18:32,10-12-2024 02:18:33,1.565s,PASSED
+"getText(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:18:33,10-12-2024 02:18:35,1.540s,PASSED
+"verifyMatch(""970906"", ""970906"", false)",Chrome 131.0.0.0,,,10-12-2024 02:18:35,10-12-2024 02:18:35,0.013s,PASSED
+"click(findTestObject(""Delete Employee/buttonDelete""))",Chrome 131.0.0.0,,,10-12-2024 02:18:35,10-12-2024 02:18:36,1.075s,PASSED
+"verifyElementPresent(findTestObject(""Delete Employee/alertConfirmdelete""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:18:36,10-12-2024 02:18:36,0.628s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 02:18:36,10-12-2024 02:18:38,2.038s,PASSED
+"click(findTestObject(""Delete Employee/buttonYesdelete""))",Chrome 131.0.0.0,,,10-12-2024 02:18:38,10-12-2024 02:18:40,1.332s,PASSED
+"verifyElementPresent(findTestObject(""Delete Employee/toasSuccess""), 0)",Chrome 131.0.0.0,,,10-12-2024 02:18:40,10-12-2024 02:18:41,1.202s,PASSED
+delay(3),Chrome 131.0.0.0,,,10-12-2024 02:18:41,10-12-2024 02:18:44,3.074s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,10-12-2024 02:18:44,10-12-2024 02:18:46,1.733s,PASSED
+,,,,,,,
+Test Cases/Scope Test/TC 005 Validasi data yang dihapus,Chrome 131.0.0.0,,,10-12-2024 02:18:46,10-12-2024 02:19:44,58.613s,PASSED
+"callTestCase(findTestCase(""TC - TK 004/TC 001 Membuka fitur PIM""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,10-12-2024 02:18:49,10-12-2024 02:19:25,36.140s,PASSED
+"click(findTestObject(""Search Employee/inputUsername""))",Chrome 131.0.0.0,,,10-12-2024 02:19:25,10-12-2024 02:19:27,1.255s,PASSED
+"click(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:19:27,10-12-2024 02:19:28,1.565s,PASSED
+"setText(findTestObject(""Search Employee/inputEmployeeid""), ""970906"")",Chrome 131.0.0.0,,,10-12-2024 02:19:28,10-12-2024 02:19:29,1.033s,PASSED
+"click(findTestObject(""Search Employee/buttonSearch""))",Chrome 131.0.0.0,,,10-12-2024 02:19:29,10-12-2024 02:19:31,1.396s,PASSED
+"focus(findTestObject(""Search Employee/tableEmployee""))",Chrome 131.0.0.0,,,10-12-2024 02:19:31,10-12-2024 02:19:34,2.886s,PASSED
+"getText(findTestObject(""Search Employee/inputEmployeeid""))",Chrome 131.0.0.0,,,10-12-2024 02:19:34,10-12-2024 02:19:35,1.500s,PASSED
+"verifyMatch(""970906"", ""970906"", false)",Chrome 131.0.0.0,,,10-12-2024 02:19:35,10-12-2024 02:19:35,0.191s,PASSED
+delay(5),Chrome 131.0.0.0,,,10-12-2024 02:19:35,10-12-2024 02:19:40,5.111s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,10-12-2024 02:19:40,10-12-2024 02:19:44,3.997s,PASSED

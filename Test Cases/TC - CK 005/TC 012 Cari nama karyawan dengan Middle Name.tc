@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 012 Cari nama karyawan dengan Middle Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6b739cb-3285-41b5-89ac-634a86216488</testCaseGuid>
+</TestCaseEntity>

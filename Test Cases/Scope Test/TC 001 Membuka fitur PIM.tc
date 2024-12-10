@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 001 Membuka fitur PIM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60607f3b-471e-4ab3-9f99-72816e47969c</testCaseGuid>
+</TestCaseEntity>

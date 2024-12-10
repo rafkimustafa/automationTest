@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 014 Autocomplate nama karywan muncul saat Username menerima value</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd4d4148-3c5d-4052-a3dc-a9348d600d4f</testCaseGuid>
+</TestCaseEntity>

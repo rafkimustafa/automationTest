@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 002 Mengubah Middle Name karyawan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cdabc797-20aa-42b0-b5b3-42bb9009c615</testCaseGuid>
+</TestCaseEntity>

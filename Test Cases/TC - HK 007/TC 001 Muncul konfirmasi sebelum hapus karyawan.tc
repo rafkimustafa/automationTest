@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 001 Muncul konfirmasi sebelum hapus karyawan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50d32972-ee60-4c54-8837-554693c3e34f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 003 Tekan tombol Cancel untuk membatalkan hapus data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bebd9531-e6c7-4da4-b3f3-f04627b6b481</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 011 Cari nama karyawan dengan First Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8794e1d0-7a7d-430d-add5-0b17bb6bf0eb</testCaseGuid>
+</TestCaseEntity>
